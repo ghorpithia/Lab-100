@@ -44,4 +44,4 @@ jobs:
 
       - name: Terraform Destroy
         # if: false
-        run: terraform apply -auto-approve
+        run: terraform destroy -auto-approve
